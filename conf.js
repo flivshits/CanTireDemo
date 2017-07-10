@@ -10,7 +10,7 @@ exports.config = {
         var jasmineReporters = require('jasmine-reporters');
         var junitReporter = new jasmineReporters.JUnitXmlReporter({
         	consolidateAll: true,
-            savePath: 'C:\\Program Files (x86)\\Jenkins\\jobs\\CanTire\\workspace\\testresults',
+            savePath: 'testresults',
             filePrefix: 'xmloutput'
           });
           jasmine.getEnv().addReporter(junitReporter);
