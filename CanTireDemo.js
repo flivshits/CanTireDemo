@@ -39,13 +39,6 @@ describe('Given that I go to istockphoto', function() {
 			browser.sleep(2500);
 			loginPage.submitButton.click();
 			browser.sleep(2500);
-
-			// expect(loginPage.errorMessage.isPresent()).toThrow
-			// describe('Then I should see an error', function() {
-			// it('Then I should see an error', function() {
-			// expect(loginPage.errorMessage.isPresent()).toBe(true);
-			// });
-			// });
 		});
 	});
 });
