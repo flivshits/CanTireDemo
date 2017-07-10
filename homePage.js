@@ -63,7 +63,7 @@ describe('Given that I go to istockphoto', function() {
 			landingPage.signIn.click();
 			expect(loginPage.signInLabel.isPresent()).toBe(false);
 			browser.sleep(2500);
-			loginPage.signInAccount.sendKeys("Canadian Tire ");
+			loginPage.signInAccount.sendKeys("Canadian Tire");
 			browser.sleep(2500);
 			loginPage.signInPassword.sendKeys("this should also work");
 			browser.sleep(2500);
